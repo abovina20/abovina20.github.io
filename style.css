@@ -1,0 +1,336 @@
+body {
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 100px;
+		font-family: 'Rajdhani', sans-serif;
+
+}
+header{
+	background-color: transparent;
+	padding: 0px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	width: 100%;
+	max-width: 1020px;
+    height: 25px;
+    justify-self: center;
+    text-align:center;
+    margin-top: 0px;
+    position: absolute;
+    pointer-events: auto;
+}
+
+nav li {
+  float: right;
+  
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 60px ;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 23px;
+  
+}
+nav li a:hover {
+  color: #BEBEBE;
+   opacity: 0.6;
+  transition: 0.3s;
+}
+header h2{
+	  display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center; 
+
+}
+.text h1{
+	text-align: center;
+	font-size: 40px;
+}
+.text p {
+	text-align: left;
+	font-size: 35px;
+	padding: 20px;
+}
+
+footer {
+	background-color: white;
+	padding: 0px;
+}
+footer p{
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+}
+#container {
+	width: 1200px; 
+	margin: 0 auto; 
+	background-color: white;
+}
+.frame {
+  height: 75vh;
+  box-shadow:
+    -35px -30px 0 -5px #e6e6e6,
+    -45px -30px 0 0 white;
+    
+  transition: box-shadow ease-in 150ms;
+}
+
+.frame:hover {
+  box-shadow:
+    5px -5px 0 -5px white,
+    5px -5px 0 0 white;
+}
+#big-pic {
+	width: 550px;
+	margin-top: 20px;
+	height: 800px;
+	
+}
+	
+.two-column{
+	display: grid; 
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1fr 1fr 1fr;
+	padding: 40px;
+	background-color: white;
+}
+.two-column div{
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.three-column {
+	display: grid; 
+	grid-template-columns: 33% 33% 33%;
+	padding: 40px;
+	background-color: white;
+}
+
+.button {
+	font-family: 'Rajdhani', sans-serif;
+	 border: none;
+  color: grey;
+  background-color: white; 
+  padding: 16px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: auto;
+}
+.button:hover {
+ color: black;
+   opacity: 0.4;
+  transition: 0.3s;
+ box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#contacts {
+	display:flex;
+	position: relative;
+	right: 23px;
+justify-content:center;
+align-items:flex-end;
+
+}
+.social li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center; 
+	cursor: pointer;
+}
+#picture2 {
+	width: 550px;
+	margin-top: 150px;
+	height: 600px;
+}		
+.frame2 {
+  height: 75vh;
+  box-shadow:
+    35px 30px 0 -5px #e6e6e6,
+    45px 30px 0 0 white;
+  transition: box-shadow ease-in 150ms;
+}
+
+.frame2:hover {
+  box-shadow:
+    5px -5px 0 -5px white,
+    5px -5px 0 0 white;
+}
+.text2 h1 {
+	text-align: center;
+	font-size: 40px;
+}
+.text2 p {
+	text-align: left;
+	font-size: 25px;
+	padding: 10px;
+	color: black;
+	
+}
+.button2 {
+	font-family: 'Rajdhani', sans-serif;
+	 border: none;
+  color: grey;
+  background-color: white; 
+  padding: 16px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: auto;
+  float: right;
+}
+.button3 {
+	font-family: 'Rajdhani', sans-serif;
+	 border: none;
+  color: grey;
+  background-color: white; 
+  padding: 16px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: auto;
+}
+.button4 {
+	font-family: 'Rajdhani', sans-serif;
+	 border: none;
+  color: grey;
+  background-color: white; 
+  padding: 16px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: auto;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.button2:hover {
+	color: black;
+   opacity: 0.4;
+  transition: 0.3s;
+ box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button3:hover {
+	color: black;
+   opacity: 0.4;
+  transition: 0.3s;
+ box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button4:hover{
+	color: black;
+   opacity: 0.4;
+  transition: 0.3s;
+ box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.plans {
+	width: 33%;
+	float: left;
+	
+}
+.interview {
+	float: left;
+	width: 33%;
+	
+}
+.motion {
+	width: 33%;
+	float:left;
+
+}
+.column1 {
+	padding-left:50px;
+	
+}
+.column2 {
+	margin:0;
+	padding-left: 70px;
+}
+
+.grid {
+	margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+	padding: 60px;
+}
+#photo1 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo2 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo3 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo4 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo5 {
+	width: 640px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo6 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+}
+
+#photo8 {
+	width: 310px;
+    height: 450px;
+	padding-left: 16px;
+	
+}
+#photo9 {
+	width: 640px;
+    height: 450px;
+	padding-top: 10px;
+}
+#photo10 {
+	width: 310px;
+    height: 450px;
+	padding-top: 10px;
+	
+}
+#photo11 {
+	width: 310px;
+    height: 450px;
+	padding-left: 16px;
+	
+}
