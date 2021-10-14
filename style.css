@@ -5,6 +5,7 @@ body {
 		font-family: 'Rajdhani', sans-serif;
 
 }
+
 header{
 	background-color: transparent;
 	padding: 0px;
@@ -51,6 +52,7 @@ header h2{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	text-align: center; 
+	
 
 }
 .text h1{
@@ -71,6 +73,13 @@ footer p{
 	margin: 0;
 	font-size: 40px;
 	text-align: center;
+}
+.footer1 {
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.footer2{
+	padding-top: 100px;
 }
 #container {
 	width: 1200px; 
@@ -95,13 +104,13 @@ footer p{
 	width: 550px;
 	margin-top: 20px;
 	height: 800px;
+
 	
 }
 	
 .two-column{
 	display: grid; 
 	grid-template-columns: 50% 50%;
-	grid-template-rows: 1fr 1fr 1fr;
 	padding: 40px;
 	background-color: white;
 }
@@ -110,34 +119,6 @@ footer p{
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 20px;
-}
-.three-column {
-	display: grid; 
-	grid-template-columns: 33% 33% 33%;
-	padding: 40px;
-	background-color: white;
-}
-
-.button {
-	font-family: 'Rajdhani', sans-serif;
-	 border: none;
-  color: grey;
-  background-color: white; 
-  padding: 16px 36px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin: auto;
-}
-.button:hover {
- color: black;
-   opacity: 0.4;
-  transition: 0.3s;
- box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #contacts {
@@ -183,87 +164,15 @@ align-items:flex-end;
 	color: black;
 	
 }
-.button2 {
-	font-family: 'Rajdhani', sans-serif;
-	 border: none;
-  color: grey;
-  background-color: white; 
-  padding: 16px 36px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin: auto;
-  float: right;
+.text3 {
+	font-size: 30px;
+	text-align: center; 
+	padding: 30px;
 }
-.button3 {
-	font-family: 'Rajdhani', sans-serif;
-	 border: none;
-  color: grey;
-  background-color: white; 
-  padding: 16px 36px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin: auto;
-}
-.button4 {
-	font-family: 'Rajdhani', sans-serif;
-	 border: none;
-  color: grey;
-  background-color: white; 
-  padding: 16px 36px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin: auto;
-  float: left;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-.button2:hover {
-	color: black;
-   opacity: 0.4;
-  transition: 0.3s;
- box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.button3:hover {
-	color: black;
-   opacity: 0.4;
-  transition: 0.3s;
- box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.button4:hover{
-	color: black;
-   opacity: 0.4;
-  transition: 0.3s;
- box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.plans {
-	width: 33%;
-	float: left;
-	
-}
-.interview {
-	float: left;
-	width: 33%;
-	
-}
-.motion {
-	width: 33%;
-	float:left;
 
+
+.row1 {
+	padding-top: 40px;
 }
 .column1 {
 	padding-left:50px;
@@ -333,4 +242,221 @@ align-items:flex-end;
     height: 450px;
 	padding-left: 16px;
 	
+	
+}
+.button5{
+	float:right;
+	font-family: 'Rajdhani', sans-serif;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  right: 100px;
+  bottom:10px;
+  font-size:24px;
+  padding:16px 36px;
+  margin: 4px 2px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button5:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button5:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button5:hover:before{
+   width:100%;
+  transition:800ms ease all;
+}
+.button5:hover:after {
+	width:100%;
+  transition:800ms ease all;
+}
+.button{
+	font-family: 'Rajdhani', sans-serif;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  left: 170px;
+  font-size:24px;
+  padding:16px 36px;
+  margin: 4px 2px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button:hover:before{
+   width:100%;
+  transition:800ms ease all;
+}
+.button:hover:after {
+	width:100%;
+  transition:800ms ease all;
+}
+.button2{
+	float:right;
+	font-family: 'Rajdhani', sans-serif;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  right: 20px;
+  font-size:24px;
+  padding:16px 36px;
+  margin: 4px 2px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button2:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button2:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button2:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button2:hover:before{
+   width:100%;
+  transition:800ms ease all;
+}
+.button2:hover:after {
+	width:100%;
+  transition:800ms ease all;
+}
+.button3{
+	float:right;
+	font-family: 'Rajdhani', sans-serif;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  right: 50px;
+  font-size:24px;
+  padding:16px 36px;
+  margin: 4px 2px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button3:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button3:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button3:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button3:hover:before{
+   width:100%;
+  transition:800ms ease all;
+}
+.button3:hover:after {
+	width:100%;
+  transition:800ms ease all;
+}
+.button4{
+	float:right;
+	font-family: 'Rajdhani', sans-serif;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  top: 60px;
+  right: 400px;
+  font-size:24px;
+  padding:16px 36px;
+  margin: 4px 2px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.button4:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button4:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button4:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button4:hover:before{
+   width:100%;
+  transition:800ms ease all;
+}
+.button4:hover:after {
+	width:100%;
+  transition:800ms ease all;
 }
